@@ -1,0 +1,44 @@
+﻿<Page x:Class="GIBDD_Talyzenkov.Pages.avtoriz"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GIBDD_Talyzenkov.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="800"
+      Title="avtoriz">
+
+    
+
+    <Grid>
+        <Image Source="/Resources/3Z5uCfjvTTc.jpg"  Stretch="Fill" />
+        <Border Background="Gray" Opacity="0.50"/>
+        <Border Width="350" Height="200"
+                    CornerRadius="10" Background="bLACK"
+                        HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <TextBlock Text="АВТОРИЗАЦИЯ"
+                            Style="{StaticResource TxblTitle}"/>
+                <WrapPanel Margin="5">
+                    <TextBlock Text="Логин"
+                                    Style="{StaticResource TxblLogPass}"/>
+                    <TextBox x:Name="Login"
+                                    Style="{StaticResource TxbLogin}"/>
+                </WrapPanel>
+                <WrapPanel Margin="5">
+                    <TextBlock Text="Пароль"
+                                    Style="{StaticResource TxblLogPass}"/>
+                    <PasswordBox x:Name="Password"
+                                    Style="{StaticResource PsbPassword}"/>
+                </WrapPanel>
+                <Border HorizontalAlignment="Center" >
+                    <Button Content="Вход" Width="100" Height="40" Foreground="Blue" Background="Transparent" BorderBrush="#FF040404" Click="Button_Click"/>
+                </Border>
+                
+                
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Page>

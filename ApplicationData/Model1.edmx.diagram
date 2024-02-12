@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dcc0ddb3d138414c96830f122a3b3993" Name="Diagram1">
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Cars" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Num_Prav" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Owner" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Role" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Shtraf_Protokol" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Strahovka" Width="1.5" PointX="7.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.Strahovka_Type" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Talyzenkov_GIBDDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Cars_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Strahovka_Cars" ManuallyRouted="false" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Owner_Num_Prav" ManuallyRouted="false" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Owner_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Shtraf_Protokol_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Strahovka_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="Talyzenkov_GIBDDModel.FK_Strahovka_Strahovka_Type1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
