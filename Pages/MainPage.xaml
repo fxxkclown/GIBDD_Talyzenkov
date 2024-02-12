@@ -282,6 +282,7 @@
                     <TextBlock Text="История штрафов" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Grid>
             </TabItem>
+            <!--aasd-->
         </TabControl>
     </Grid>
 </Page>
