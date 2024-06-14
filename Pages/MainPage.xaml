@@ -227,8 +227,97 @@
                         <RowDefinition Height="717*"/>
                     </Grid.RowDefinitions>
                     <TextBlock Text="Данные Водительского удостоверения" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="Bold" />
-                    <Image Source="/Resources/Водительское_удостоверение_РФ_(образца_2014_года)._Стороны_А_и_Б..jpg" Grid.Row="1"/>
+                    <Border Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black" BorderThickness="2" Width="650" Height="600">
+                        <Grid>
 
+                            <StackPanel>
+                                <WrapPanel>
+                                    <Image Source="/Resources/qwersa.jpg" Width="100" Margin="20"/>
+                                    <Image Source="/Resources/gh.jpg" Width="400" Margin="20"/>
+                                </WrapPanel>
+                                <WrapPanel>
+                                    <StackPanel Width="320">
+                                        <Image Source="{Binding ImgFoto}" Width="200" />
+                                        <TextBlock Text="6."/>
+                                        <WrapPanel>
+                                            <TextBlock Text="7."/>
+                                            <Image Source="/Resources/1.png" Width="100" />
+
+                                        </WrapPanel>
+                                    </StackPanel>
+                                    <StackPanel Width="320">
+                                        <WrapPanel>
+                                            <TextBlock Text="1." FontSize="20"/>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Familia}" FontSize="20" FontWeight="Bold"/>
+
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="2." FontSize="20"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock Text="{Binding Name}" FontSize="20" FontWeight="Bold"/>
+                                                    <TextBlock Text="{Binding Otshestvo}" FontSize="20" FontWeight="Bold"/>
+                                                </WrapPanel>
+                                                
+
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="3." FontSize="20"/>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Date_Rozdenia}" FontSize="20" FontWeight="Bold"/>
+                                                <TextBlock Text="МОСКОВСКАЯ ОБЛ" FontSize="20" FontWeight="Bold"/>
+
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="4а)" FontSize="20"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock Text="{Binding Familia}" FontSize="20" FontWeight="Bold"/>
+                                                    <TextBlock Text="4b)" FontSize="20"/>
+                                                    <TextBlock Text="01.02.2022" FontSize="20" FontWeight="Bold"/>
+                                                </WrapPanel>
+
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="4c)" FontSize="20"/>
+                                            <StackPanel>
+                                                <TextBlock Text="ГИБДД 5674" FontSize="20" FontWeight="Bold"/>
+
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="5." FontSize="20"/>
+                                            <StackPanel>
+                                                <TextBlock Text="56 04 491942" FontSize="20" FontWeight="Bold"/>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="8." FontSize="20"/>
+                                            <StackPanel>
+                                                <TextBlock Text="МОСКОВСКАЯ ОБЛ" FontSize="20" FontWeight="Bold"/>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <WrapPanel>
+                                            <TextBlock Text="9." FontSize="20"/>
+                                            <StackPanel>
+                                                <TextBlock Text="B" FontSize="20" FontWeight="Bold"/>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                        <Image Source="/Resources/hgg.jpg" Width="325" />
+
+                                    </StackPanel>
+                                    <StackPanel>
+
+                                    </StackPanel>
+                                </WrapPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
                 </Grid>
             </TabItem>
             <TabItem>

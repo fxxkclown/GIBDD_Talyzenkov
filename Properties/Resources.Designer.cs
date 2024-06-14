@@ -223,6 +223,16 @@ namespace GIBDD_Talyzenkov.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gh {
+            get {
+                object obj = ResourceManager.GetObject("gh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GIBDD_LOGO {
             get {
                 object obj = ResourceManager.GetObject("GIBDD_LOGO", resourceCulture);
@@ -236,6 +246,16 @@ namespace GIBDD_Talyzenkov.Properties {
         internal static System.Drawing.Bitmap GLC_Class {
             get {
                 object obj = ResourceManager.GetObject("GLC_Class", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hgg {
+            get {
+                object obj = ResourceManager.GetObject("hgg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -276,6 +296,16 @@ namespace GIBDD_Talyzenkov.Properties {
         internal static System.Drawing.Bitmap pechati_mvd {
             get {
                 object obj = ResourceManager.GetObject("pechati_mvd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap qwersa {
+            get {
+                object obj = ResourceManager.GetObject("qwersa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
