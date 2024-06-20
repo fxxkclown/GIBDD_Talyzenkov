@@ -98,7 +98,6 @@
                         </StackPanel>
                     </StackPanel>
                     <StackPanel Grid.Column="1">
-                        <ComboBox Width="300"/>
                         <Image Source="{Binding ImgFoto}" Width="296" Height="422"/>
 
                     </StackPanel>
@@ -221,14 +220,14 @@
                         <TextBlock Text="Водительское удостоверение" Foreground="Navy" FontWeight="SemiBold" FontSize="14"/>
                     </StackPanel>
                 </TabItem.Header>
-                <Grid>
+                <Grid >
                     <Grid.RowDefinitions>
                         <RowDefinition Height="101*"/>
                         <RowDefinition Height="717*"/>
                     </Grid.RowDefinitions>
                     <TextBlock Text="Данные Водительского удостоверения" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="Bold" />
                     <Border Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black" BorderThickness="2" Width="650" Height="600">
-                        <Grid>
+                        <Grid Background="LightPink">
 
                             <StackPanel>
                                 <WrapPanel>

@@ -32,9 +32,12 @@
                     <PasswordBox x:Name="Password"
                                     Style="{StaticResource PsbPassword}"/>
                 </WrapPanel>
-                <Border HorizontalAlignment="Center" >
-                    <Button Content="Вход" Width="100" Height="40" Foreground="Blue" Background="Transparent" BorderBrush="#FF040404" Click="Button_Click"/>
-                </Border>
+                <WrapPanel HorizontalAlignment="Center">
+                    <Button Content="Вход" Width="100" Height="40" Foreground="White" Background="Transparent" BorderBrush="Blue" Click="Button_Click"/>
+                    <Button Content="Регистрация" Width="150" Height="40" Foreground="White" Background="Transparent" BorderBrush="Blue" Click="Button_Click_1" />
+                </WrapPanel>
+                    
+                
                 
                 
             </StackPanel>
